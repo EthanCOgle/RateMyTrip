@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
 * {
   box-sizing: border-box;  
 }
@@ -9,10 +11,12 @@ body {
 .container {
   margin: 1rem;
   text-align: center;
+  
 }
 
 .nav {
   background-color: darkslategrey;
+  font-family: 'Manrope', sans-serif ;
   color: wheat;
   display: flex;
   justify-content: space-between;
@@ -23,6 +27,7 @@ body {
 
 .site-title {
   font-size: 2 rem;
+  
 }
 .nav ul {
   padding: 0;
