@@ -4,7 +4,16 @@ import { useState } from "react"
 function App() {
   return (
     <div>
-      <NavBar className="navbar"/>
+    
+
+    
+
+
+
+   
+    <main> Yo whats Up </main>
+
+
     </div>
   );
 }
