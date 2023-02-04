@@ -6,8 +6,8 @@ const NavBar = ({ title }) => {
     <div>
       <h1>
         {title}
-        <Button color="blue" text="Search"/>
-        <Button color="blue" text="Explore"/>
+        <Button text="Search"/>
+        <Button text="Explore"/>
         <Button color="grey" text="Sign In"/>
         <Button color="grey" text="Sign Out"/>
       </h1>
