@@ -7,16 +7,10 @@ import SignIn from "./pages/SignIn"
 import SignUp from "./pages/SignUp"
 import Home from "./pages/Home"
 import {Route, Routes} from "react-router-dom"
-import "./App.scss";
-import Slider from "./Components/slider/SLider";
+
 
 function App() {
-  return (
-    <div>
-      < Slider/>
-    </div>
-  );
-}
+  
 
 
   // const [posts, setPosts] = useState([
@@ -60,5 +54,6 @@ function App() {
     </div>
   );
 
+}
 
 export default App;
