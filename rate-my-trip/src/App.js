@@ -19,8 +19,7 @@ function App() {
   ])
   return (
     <div>
-      <NavBar className="NavBar"/>
-      <Posts posts={posts}/>
+      <NavBar className="navbar"/>
     </div>
   );
 }
