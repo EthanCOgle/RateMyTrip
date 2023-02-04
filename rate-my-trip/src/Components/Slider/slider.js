@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Slider.scss"
 
-const slider = () => {
+const Slider = () => {
   return (
     <div>
         <h1>Slider</h1>
@@ -9,4 +9,4 @@ const slider = () => {
   )
 }
 
-export default slider
+export default Slider
