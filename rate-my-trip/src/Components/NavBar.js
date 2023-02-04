@@ -8,6 +8,7 @@ const NavBar = ({ title }) => {
         {title}
         <Button text="Search"/>
         <Button text="Explore"/>
+        <Button text="Post"/>
         <Button color="grey" text="Sign In"/>
         <Button color="grey" text="Sign Out"/>
       </h1>
