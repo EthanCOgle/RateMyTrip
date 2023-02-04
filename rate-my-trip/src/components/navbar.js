@@ -1,9 +1,9 @@
-import React from 'react'
+import PropTypes from "prop-types"
 
-function navbar() {
+const NavBar = ({ title,  }) => {
   return (
-    <div>navbar</div>
+    <div>Header</div>
   )
 }
 
-export default navbar
+export default Header
