@@ -4,7 +4,7 @@ import { useState } from "react"
 function App() {
   return (
     <div>
-      <NavBar title="hello world"/>
+      <NavBar />
     </div>
   );
 }
