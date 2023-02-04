@@ -1,9 +1,9 @@
-import React from 'react'
+import PropTypes from "prop-types"
 
-function navbar() {
+function NavBar({  }) {
   return (
     <div>navbar</div>
   )
 }
 
-export default navbar
+export default NavBar
