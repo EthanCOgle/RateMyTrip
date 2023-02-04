@@ -1,13 +1,14 @@
 import PropTypes from "prop-types"
-import Button from "./Button"
+//import Button from "./Button"
 import {Link, useMatch, useResolvedPath} from "react-router-dom"
-const NavBar = ({ title }) => {
+const NavBar = () => {
   return (
     <nav className = "nav">
       <Link to = "/" className = "site_title"> RateMyTrip</Link>
       <ul>
        <CustomLink to = "/search">Search</CustomLink>
        <CustomLink to = "/explore">Explore</CustomLink>
+       <CustomLink to ="/Posting">Post</CustomLink>
        <CustomLink to = "/signIn">Sign In</CustomLink>
        <CustomLink to = "/signUp">Sign Up</CustomLink>
       </ul>
