@@ -6,9 +6,9 @@ import Explore from "./pages/Explore"
 import SignIn from "./pages/SignIn"
 import SignUp from "./pages/SignUp"
 import Home from "./pages/Home"
-import {Route, Routes} from "react-router-dom"
+import {Form, Route, Routes} from "react-router-dom"
 import Footer from './Components/Footer';
-
+import Form from './Components/Form';
 
 function App() {
   // const [posts, setPosts] = useState([
@@ -41,6 +41,8 @@ function App() {
             <Route path = "/signIn" element = {<SignIn />} />
 
           </Routes>
+
+          <Form />
 
 
 
