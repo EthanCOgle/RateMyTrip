@@ -1,8 +1,11 @@
-import NavBar from "./Components"
+import NavBar from "./Components/NavBar"
+import { useState } from "react"
 
 function App() {
   return (
-    <h1>Hello guys</h1>
+    <div>
+      <NavBar title="hello world"/>
+    </div>
   );
 }
 
