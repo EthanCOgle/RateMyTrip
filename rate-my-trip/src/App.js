@@ -6,8 +6,19 @@ import Explore from "./pages/Explore"
 import SignIn from "./pages/SignIn"
 import SignUp from "./pages/SignUp"
 import Home from "./pages/Home"
+<<<<<<< HEAD
+import {Form, Route, Routes} from "react-router-dom"
+import Footer from './Components/Footer';
+import Form from './Components/Form';
+=======
 import {Route, Routes} from "react-router-dom"
+<<<<<<< HEAD
 
+=======
+import "./App.scss";
+import Slider from "./Components/slider/SLider";
+>>>>>>> 3d64a693f65a0519ab195e3f1df28991da85c99c
+>>>>>>> 6ae3f8567936657a3e83e6660cdac7cd11e6d64a
 
 function App() {
   
@@ -44,6 +55,8 @@ function App() {
 
           </Routes>
           
+
+          <Form />
 
 
 
