@@ -1,7 +1,7 @@
 import NavBar from "./Components/NavBar"
-//import Posting from "./Components/Posting"
-import { useState } from "react"
-//import Search from "./pages/Search"
+//import Posts from "./Components/Posts"
+//import { useState } from "react"
+import Search from "./pages/Search"
 import Explore from "./pages/Explore"
 import SignIn from "./pages/SignIn"
 import SignUp from "./pages/SignUp"
@@ -17,15 +17,11 @@ function App() {
           <Routes>
             <Route path = "/" element = {<Home />} />
             <Route path = "/explore" element = {<Explore />} />
+            <Route path = "/search" element = {<Search />} />
             <Route path = "/signUp" element = {<SignUp />} />
             <Route path = "/signIn" element = {<SignIn />} />
 
           </Routes>
-          
-
-
-
-
         </div>
         {}
       </>
